@@ -1,6 +1,6 @@
 services:
-  vite-react:
-    container_name: vite-react
+  vite-portfolio:
+    container_name: vite-portfolio
     build: .
     ports:
       - "5173:5173"
