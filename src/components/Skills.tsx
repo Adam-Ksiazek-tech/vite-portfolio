@@ -1,7 +1,9 @@
 import { motion } from "motion/react";
 import { FadeIn } from "./ui/FadeIn";
+import { useTranslation } from "react-i18next";
 
 export function Skills() {
+  const { t } = useTranslation();
   const skillCategories = [
     {
       category: "Frontend",
@@ -33,16 +35,17 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 px-6 bg-gray-900 relative overflow-hidden">
+    <section id="skills" className="h-screen py-30 px-6 bg-gray-900 relative overflow-hidden">
       {/* Violet spots */}
-      <div className="absolute top-1/2 right-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-violet-600/10 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl"></div>      
+      <div className="absolute bottom-0 left-1/5 w-80 h-80 bg-violet-600/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
         <FadeIn>
-          <h2 className="text-4xl md:text-5xl mb-4 text-white">Skills & Expertise</h2>
+          <h2 className="text-4xl md:text-5xl mb-4 text-white">{ t("skills.title") }</h2>
+          
           <p className="text-lg text-gray-400 max-w-3xl mx-auto">
-            Technologies and tools I work with to bring ideas to life
+            { t("skills.description") }
           </p>
         </FadeIn>
 

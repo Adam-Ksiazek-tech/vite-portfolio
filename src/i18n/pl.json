@@ -39,19 +39,25 @@
       "description": "Serwis goszczący miliony użytkowników dziennie."
     }
   },
+  "skills": {
+    "title": "Umiejętności",
+    "description": "Technologie i narzędzia, których używam do realizacji projektów."
+  },
   "contact": {
     "email": "Email",
     "phone": "Telefon",
     "location": "Lokalizacja",
+    "linkedIn": "LinkedIn",
+    "gitHub": "GitHub",
     "contact_label": "Kontakt",
     "tell_me_about": "Opowiedź mi o swojej wizji strony...",
     "project_in_mind": "Masz w głowie jakiś szkic pomysłu na stronę? Przegadajmy temat i stwórzmy coś unikalnego, za nieduże pieniądze.",
     "contact_information": "Informacje do kontaktu",
-    "contact_information_2": "Zapraszam do kontaktu za pośrednictwem dowolnego z poniższych kanałów lub poprzez formularz kontaktowy."
+    "contact_information_2": "Zapraszam do kontaktu za pośrednictwem dowolnego z poniższych kanałów."
   },  
   "about": {
     "title": "O mnie",
-    "description": "Programowanie to moja pasja, którą praktykuję 10+ lat. Zacząłem od C++, C#, PHP, Javascript, Python. Obecnie szlifuję React wraz z TypeScript.",    
+    "description": "Jestem fullstack developerem z doświadczeniem w projektowaniu i utrzymaniu dużych serwisów internetowych (PHP, JavaScript, Node.js, Python, Drupal). Łączę wiedzę techniczną z praktycznym podejściem do UX i SEO, co pozwala mi dostarczać rozwiązania wydajne i przyjazne użytkownikowi. W pracy cenię dobrą komunikację z biznesem oraz proaktywne podejście do jakości — od projektowania po testy automatyczne. Posiadam doświadczenie w konsultacjach technicznych z zespołami Marketingu, SEO i Reklamy, podpowiadaniu rozwiązań technicznych oraz prowadzeniu rozmów technicznych z zewnętrznymi dostawcami usług. Doradzam zespołom projektowym i optymalizuję procesy developerskie, dbając zarówno o jakość kodu, jak i użyteczność tworzonych aplikacji.",
     "features": [
       {       
         "key": "clean_code", 

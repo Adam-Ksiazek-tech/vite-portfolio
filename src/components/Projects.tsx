@@ -50,7 +50,8 @@ export function Projects() {
                       {tag}
                     </span>
                   ))}
-                </div>                
+                </div>
+                
               </div>
             </FadeIn>
           ))}

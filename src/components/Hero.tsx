@@ -7,7 +7,7 @@ export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-20 bg-gray-950 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-6 bg-gray-950 relative overflow-hidden">
       {/* Violet spots/gradients */}
       <div className="absolute top-20 right-20 w-96 h-96 bg-violet-600/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 left-20 w-80 h-80 bg-purple-600/20 rounded-full blur-3xl"></div>
@@ -18,8 +18,8 @@ export function Hero() {
           className="text-center"
         >
           <FadeIn as="h1" delay={0.1} className="text-5xl md:text-7xl mb-6 text-white">
-            <span className="text-violet-400">{t("hero.title")}</span><br />
-            <span className="text-violet-400">{t("hero.title_line_2", { name: "AKCODE Adam Książek" })}</span>
+            <span className="text-violet-400 leading-relaxed">{t("hero.title")}</span><br />
+            <span className="text-violet-400 leading-relaxed">{t("hero.title_line_2", { name: "AKCODE Adam Książek" })}</span>
           </FadeIn>
           
           <FadeIn as="p" delay={0.2}            

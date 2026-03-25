@@ -39,19 +39,25 @@
       "description": "A service hosting millions of users daily."
     }
   },
+  "skills": {
+    "title": "Skills",
+    "description": "Technologies and tools I use to bring projects to life."
+  },
   "contact": {
     "email": "Email",
     "phone": "Mobile",
     "location": "Localization",
+    "linkedIn": "LinkedIn",
+    "gitHub": "GitHub",
     "contact_label": "Get in Touch",
     "tell_me_about": "Tell me about your project...",
     "project_in_mind": "Have a project in mind? Let's work together to create something amazing",
     "contact_information": "Contact Information",
-    "contact_information_2": "Feel free to reach out through any of these channels or use the contact form."
+    "contact_information_2": "Feel free to reach out through any of these channels."
   },
   "about": {
     "title": "About Me",
-    "description": "Programming is my passion, which I've practiced for over 10 years. I started with C++, C#, PHP, JavaScript, Python. Currently, I’m honing my skills in React with TypeScript.",
+    "description": "I am a full-stack developer with experience designing and maintaining large web services (PHP, JavaScript, Node.js, Python, Drupal). I combine technical expertise with a practical understanding of UX and SEO, enabling me to deliver solutions that are both efficient and user-friendly. In my work, I value clear communication with business stakeholders and a proactive approach to quality—from design to automated testing. I have experience providing technical consultations to Marketing, SEO, and Advertising teams, suggesting technical solutions, and leading technical discussions with external service providers. I advise project teams and optimize development processes, ensuring both code quality and the usability of the applications I help build.",
     "features": [
       {
         "key": "clean_code",

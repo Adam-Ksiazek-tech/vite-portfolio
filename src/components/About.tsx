@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Code2, Palette, Zap } from "lucide-react";
+import { Code2, Palette, Zap, Cpu } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { FadeIn } from "./ui/FadeIn";
 
@@ -18,7 +18,7 @@ export function About() {
   const iconsMap: Record<string, React.ElementType> = {
     clean_code: Code2,
     design_focused: Palette,
-    performance: Zap,
+    performance: Cpu,
   };
   const featuresText: FeatureText[] = t("about.features", { returnObjects: true }) as FeatureText[];
 
@@ -28,7 +28,7 @@ export function About() {
   }));
 
   return (
-    <section id="about" className="py-20 px-6 bg-gray-900 relative overflow-hidden">
+    <section id="about" className="h-screen py-20 px-6 bg-gray-900 relative overflow-hidden">
       {/* Violet spots */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-600/10 rounded-full blur-3xl"></div>
@@ -38,7 +38,7 @@ export function About() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl mb-4 text-white">{t("about.title")}</h2>
-          <p className="text-lg text-gray-400 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-400 max-w-3xl mx-auto text-justify leading-relaxed">
             {t("about.description")}
           </p>
         </FadeIn>

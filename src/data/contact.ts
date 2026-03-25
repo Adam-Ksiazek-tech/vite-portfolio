@@ -25,6 +25,18 @@ export const contactInfo = [
     value: "Dawidy Bankowe",
     href: null,
   },
+  {
+    icon: Linkedin,
+    label: "contact.linkedIn",
+    value: "adam-ksiazek-1b346b151",
+    href: "https://www.linkedin.com/in/adam-ksiazek-1b346b151",
+  },
+  {
+    icon: Github,
+    label: "contact.gitHub",
+    value: "Adam-pmpg",
+    href: "https://github.com/Adam-pmpg",
+  },
 ];
 
 export const socialLinks = [

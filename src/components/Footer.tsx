@@ -9,15 +9,8 @@ export function Footer() {
   const { t } = useTranslation();
   const { name, brand, year } = developerMeta;
 
-  // const socialLinks = [
-  //   { icon: Github, href: "https://github.com", label: "GitHub" },
-  //   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  //   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  //   { icon: Mail, href: "mailto:alex@example.com", label: "Email" },
-  // ];
-
   return (
-    <footer className="bg-black text-white py-12 px-6 border-t border-gray-800">
+    <footer className="bg-black text-white py-12 px-6 border-t border-gray-800">      
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center gap-6">
           <div className="flex gap-6">
