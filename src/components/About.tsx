@@ -1,5 +1,4 @@
-import { motion } from "motion/react";
-import { Code2, Palette, Zap, Cpu } from "lucide-react";
+import { Code2, Palette, Cpu } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { FadeIn } from "./ui/FadeIn";
 
@@ -34,7 +33,7 @@ export function About() {
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-600/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
-        <FadeIn as="div"          
+        <FadeIn 
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl mb-4 text-white">{t("about.title")}</h2>

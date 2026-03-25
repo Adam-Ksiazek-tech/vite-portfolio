@@ -60,7 +60,7 @@ export function Skills() {
                       <span className="text-gray-300">{skill.name}</span>
                       <span className="text-gray-500">{skill.level}%</span>
                     </div>
-                    <FadeIn delay={categoryIndex * 0.1 + skillIndex * 0.1} as="div"
+                    <FadeIn delay={categoryIndex * 0.1 + skillIndex * 0.1}
                       className="h-2 bg-gray-800 rounded-full overflow-hidden"
                     >
                       <motion.div

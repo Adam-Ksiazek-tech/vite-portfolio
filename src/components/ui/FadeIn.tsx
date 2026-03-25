@@ -1,25 +1,21 @@
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 interface FadeInProps {
   children: ReactNode;
   delay?: number;
   className?: string;
-  as?: keyof JSX.IntrinsicElements; // np. div, h1, section
-  once?: boolean; // viewport: once: true
+  once?: boolean;
 }
 
 export function FadeIn({
   children,
   delay = 0,
   className = "",
-  as = "div",
   once = true,
 }: FadeInProps) {
-  const MotionTag = motion[as];
-
   return (
-    <MotionTag
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once }}
@@ -27,6 +23,6 @@ export function FadeIn({
       className={className}
     >
       {children}
-    </MotionTag>
+    </motion.div>
   );
 }

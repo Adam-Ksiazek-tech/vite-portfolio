@@ -1,8 +1,6 @@
-import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { FadeIn } from "./ui/FadeIn";
-import { contactInfo, contactHero } from "../data/contact";
+import { contactHero } from "../data/contact";
 export function Hero() {
   const { t } = useTranslation();
 
@@ -17,18 +15,18 @@ export function Hero() {
         <FadeIn
           className="text-center"
         >
-          <FadeIn as="h1" delay={0.1} className="text-5xl md:text-7xl mb-6 text-white">
+          <FadeIn delay={0.1} className="text-5xl md:text-7xl mb-6 text-white">
             <span className="text-violet-400 leading-relaxed">{t("hero.title")}</span><br />
             <span className="text-violet-400 leading-relaxed">{t("hero.title_line_2", { name: "AKCODE Adam Książek" })}</span>
           </FadeIn>
           
-          <FadeIn as="p" delay={0.2}            
+          <FadeIn delay={0.2}            
             className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto"
           >
             {t("hero.desc")}
           </FadeIn>
           
-          <FadeIn as="p" delay={0.4}            
+          <FadeIn delay={0.4}            
             className="flex gap-4 justify-center items-center"
           >
             <a

@@ -1,6 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, MapPin, Phone } from "lucide-react";
-import { useState } from "react";
+
 import { useTranslation } from "react-i18next";
 import { FadeIn } from "./ui/FadeIn";
 
@@ -8,19 +7,7 @@ import { contactInfo } from "../data/contact";
 
 export function Contact() {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-    alert("Thank you for your message! I'll get back to you soon.");
-    setFormData({ name: "", email: "", message: "" });
-  };
-
+  
   return (
     <section id="contact" className="py-20 px-6 bg-gray-950 relative overflow-hidden">
       {/* Violet spots */}

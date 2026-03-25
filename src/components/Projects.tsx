@@ -1,4 +1,3 @@
-import { Github, ExternalLink } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { FadeIn } from "./ui/FadeIn";
 import projectsData from "../data/projects.json";
@@ -6,7 +5,7 @@ import projectsData from "../data/projects.json";
 export function Projects() {
   const { t } = useTranslation();
 
-  const projects = projectsData.map((p, i) => ({
+  const projects = projectsData.map((p) => ({
     ...p,
     title: t(p.title),
     description: t(p.description),
@@ -19,7 +18,7 @@ export function Projects() {
       <div className="absolute bottom-1/4 left-10 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <FadeIn as="div" className="text-center mb-16">
+        <FadeIn className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4 text-white">{t("projects.title")}</h2>
           <p className="text-gray-400 max-w-3xl mx-auto text-[20px]">{t("projects.description")}</p>
         </FadeIn>

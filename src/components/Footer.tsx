@@ -1,8 +1,6 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
-
 import { Trans, useTranslation } from "react-i18next";
 
-import { contactInfo, socialLinks, developerMeta } from "../data/contact";
+import { socialLinks, developerMeta } from "../data/contact";
 
 export function Footer() {
   
