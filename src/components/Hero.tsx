@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { FadeIn } from "./ui/FadeIn";
-
+import { contactInfo, contactHero } from "../data/contact";
 export function Hero() {
   const { t } = useTranslation();
 
@@ -48,39 +48,29 @@ export function Hero() {
                 e.preventDefault();
                 document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
               }}
-            >
-              View Work
+            >              
+              { t("projects.title") }
             </a>
           </FadeIn>
 
           <FadeIn delay={0.5}
             className="flex gap-6 justify-center mt-12"
           >
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-violet-400 transition-colors"
-              aria-label="GitHub"
-            >
-              <Github className="w-6 h-6" />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-violet-400 transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="w-6 h-6" />
-            </a>
-            <a
-              href="mailto:alex@example.com"
-              className="text-gray-400 hover:text-violet-400 transition-colors"
-              aria-label="Email"
-            >
-              <Mail className="w-6 h-6" />
-            </a>
+            {contactHero.map((item => {
+              const Icon = item.icon;
+              return (
+                <a
+                  href={ item.href || "#"}
+                  target="_blank"
+                  rel={item.href ? "noopener noreferrer" : undefined}
+                  className="text-gray-400 hover:text-violet-400 transition-colors"
+                  aria-label={ item.label }
+                >
+                  <Icon className="w-6 h-6" />
+                </a>  
+              )
+              
+            }))}            
           </FadeIn>
         </FadeIn>
       </div>
