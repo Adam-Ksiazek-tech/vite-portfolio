@@ -11,6 +11,34 @@
     "subtitle": "Full Stack Developer & UI/UX Designer",
     "desc": "I build modern and fast web applications."
   },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "A selection of my recent work showcasing various technologies and solutions",
+    "pap": {
+      "title": "QA",
+      "description": "A comprehensive quality assurance suite covering manual test scenarios and automated end-to-end tests."
+    },
+    "ecommerce": {
+      "title": "E-Commerce Platform",
+      "description": "A full-featured online shopping platform with cart, checkout, and payment integration"
+    },
+    "video_uploader": {
+      "title": "Uploader video",
+      "description": "A complete set of microservices solving the issue of uploading videos from a CMS to an S3-class cloud."
+    },
+    "gazeta_prawna": {
+      "title": "GazetaPrawna.pl Portal",
+      "description": "A service hosting millions of users daily."
+    },
+    "dziennik": {
+      "title": "Dziennik.pl Portal",
+      "description": "A service hosting millions of users daily."
+    },
+    "forsal": {
+      "title": "Forsal.pl Portal",
+      "description": "A service hosting millions of users daily."
+    }
+  },
   "contact": {
     "email": "Email",
     "phone": "Mobile",
@@ -23,7 +51,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "I'm a passionate developer with 5+ years of experience building web applications. I specialize in React, TypeScript, and modern web technologies.",
+    "description": "Programming is my passion, which I've practiced for over 10 years. I started with C++, C#, PHP, JavaScript, Python. Currently, I’m honing my skills in React with TypeScript.",
     "features": [
       {
         "key": "clean_code",

@@ -37,7 +37,7 @@ export function Header() {
             <button
               key={item.label}
               onClick={() => scrollToSection(item.href)}
-              className="text-gray-300 hover:text-violet-400 transition-colors"
+              className="text-gray-300 hover:text-violet-400 transition-colors cursor-pointer"
             >
               {item.label}
             </button>
@@ -46,7 +46,7 @@ export function Header() {
           {/* LANGUAGE SWITCHER */}
           <button
             onClick={switchLang}
-            className="text-gray-300 hover:text-violet-400 transition-colors ml-4"
+            className="text-gray-300 hover:text-violet-400 transition-colors ml-4 cursor-pointer"
           >
             {currentLang === "pl" ? "EN" : "PL"}
           </button>
@@ -61,9 +61,9 @@ export function Header() {
           aria-label="Toggle menu"
         >
           {isMenuOpen ? (
-            <X className="w-6 h-6 text-white" />
+            <X className="w-6 h-6 text-white cursor-pointer" />
           ) : (
-            <Menu className="w-6 h-6 text-white" />
+            <Menu className="w-6 h-6 text-white cursor-pointer" />
           )}
         </button>
 
@@ -75,7 +75,7 @@ export function Header() {
                 <button
                   key={item.label}
                   onClick={() => scrollToSection(item.href)}
-                  className="text-gray-300 hover:text-violet-400 text-left transition-colors"
+                  className="text-gray-300 hover:text-violet-400 text-left transition-colors cursor-pointer"
                 >
                   {item.label}
                 </button>
@@ -83,7 +83,7 @@ export function Header() {
               {/* MOBILE LANG SWITCHER */}
               <button
                 onClick={switchLang}
-                className="text-gray-300 hover:text-violet-400 w-fit mt-3"
+                className="text-gray-300 hover:text-violet-400 w-fit mt-3 cursor-pointer"
               >
                 {currentLang === "pl" ? "EN" : "PL"}
               </button>

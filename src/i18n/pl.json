@@ -11,6 +11,34 @@
     "subtitle": "Full Stack Developer UI/UX SEO QA",
     "desc": "Tworzę nowoczesne i szybkie aplikacje webowe."
   },
+  "projects": {
+    "title": "Wybrane Projekty",
+    "description": "Przegląd moich ostatnich prac prezentujących różne technologie i rozwiązania",
+    "pap": {
+      "title": "QA",
+      "description": "Kompleksowy zestaw testów jakości, obejmujący scenariusze manualne oraz automatyczne E2E."
+    },
+    "ecommerce": {
+      "title": "Platforma E-Commerce",
+      "description": "Pełnoprawna platforma zakupowa online z koszykiem, płatnościami i checkoutem."
+    },
+    "video_uploader": {
+      "title": "Uploader wideo",
+      "description": "Komplet mikrousług rozwiązaujący kwestię uploadu wideo z CMS do chmury klasy S3."
+    },
+    "gazeta_prawna": {
+      "title": "Portal GazetaPrawna.pl",
+      "description": "Serwis goszczący miliony użytkowników dziennie."
+    },
+    "dziennik": {
+      "title": "Portal Dziennik.pl",
+      "description": "Serwis goszczący miliony użytkowników dziennie."
+    },
+    "forsal": {
+      "title": "Portal Forsal.pl",
+      "description": "Serwis goszczący miliony użytkowników dziennie."
+    }
+  },
   "contact": {
     "email": "Email",
     "phone": "Telefon",
@@ -23,7 +51,7 @@
   },  
   "about": {
     "title": "O mnie",
-    "description": "Jestem pasjonatem programowania z ponad 5-letnim doświadczeniem w tworzeniu aplikacji webowych. Specjalizuję się w React, TypeScript i nowoczesnych technologiach webowych.",
+    "description": "Programowanie to moja pasja, którą praktykuję 10+ lat. Zacząłem od C++, C#, PHP, Javascript, Python. Obecnie szlifuję React wraz z TypeScript.",    
     "features": [
       {       
         "key": "clean_code", 
