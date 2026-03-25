@@ -21,8 +21,29 @@
     "contact_information": "Contact Information",
     "contact_information_2": "Feel free to reach out through any of these channels or use the contact form."
   },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate developer with 5+ years of experience building web applications. I specialize in React, TypeScript, and modern web technologies.",
+    "features": [
+      {
+        "key": "clean_code",
+        "title": "Clean Code",
+        "description": "Writing maintainable, scalable code following best practices"
+      },
+      {
+        "key": "design_focused",
+        "title": "Design Focused",
+        "description": "Creating intuitive interfaces with attention to detail"
+      },
+      {
+        "key": "performance",
+        "title": "Performance",
+        "description": "Optimizing for speed and exceptional user experience"
+      }
+    ]
+  },
   "footer": {
     "copyright": "© {{year}} {{brand}} <bold>{{name}}</bold>. All rights reserved.",
     "builtWith": "Built with React & Tailwind CSS"
-  }
+  }  
 }

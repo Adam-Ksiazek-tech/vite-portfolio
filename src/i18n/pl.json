@@ -21,6 +21,27 @@
     "contact_information": "Informacje do kontaktu",
     "contact_information_2": "Zapraszam do kontaktu za pośrednictwem dowolnego z poniższych kanałów lub poprzez formularz kontaktowy."
   },  
+  "about": {
+    "title": "O mnie",
+    "description": "Jestem pasjonatem programowania z ponad 5-letnim doświadczeniem w tworzeniu aplikacji webowych. Specjalizuję się w React, TypeScript i nowoczesnych technologiach webowych.",
+    "features": [
+      {       
+        "key": "clean_code", 
+        "title": "Czysty kod",
+        "description": "Tworzenie łatwego w utrzymaniu, skalowalnego kodu zgodnie z najlepszymi praktykami"
+      },
+      {
+        "key": "design_focused",
+        "title": "Skoncentrowany na designie",
+        "description": "Tworzenie intuicyjnych interfejsów z dbałością o szczegóły"
+      },
+      {
+        "key": "performance",
+        "title": "Wydajność",
+        "description": "Optymalizacja pod kątem szybkości i wyjątkowego doświadczenia użytkownika"
+      }
+    ]
+  },
   "footer": {
     "copyright": "© {{year}} {{brand}} <bold>{{name}}</bold>. Wszelkie prawa zastrzeżone.",
     "builtWith": "Zbudowano przy użyciu React & Tailwind CSS"
