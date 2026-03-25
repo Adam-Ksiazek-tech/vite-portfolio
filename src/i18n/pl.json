@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "about": "O mnie",
+    "projects": "Projekty",
+    "skills": "Umiejętności",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Cześć, jestem",
+    "title_line2": "{{name}}",
+    "subtitle": "Full Stack Developer UI/UX SEO QA",
+    "desc": "Tworzę nowoczesne i szybkie aplikacje webowe."
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Telefon",
+    "location": "Lokalizacja",
+    "contact_label": "Kontakt",
+    "tell_me_about": "Opowiedź mi o swojej wizji strony...",
+    "project_in_mind": "Masz w głowie jakiś szkic pomysłu na stronę? Przegadajmy temat i stwórzmy coś unikalnego, za nieduże pieniądze.",
+    "contact_information": "Informacje do kontaktu",
+    "contact_information_2": "Zapraszam do kontaktu za pośrednictwem dowolnego z poniższych kanałów lub poprzez formularz kontaktowy."
+  },  
+  "footer": {
+    "copyright": "© {{year}} {{brand}} <bold>{{name}}</bold>. Wszelkie prawa zastrzeżone.",
+    "builtWith": "Zbudowano przy użyciu React & Tailwind CSS"
+  }
+}

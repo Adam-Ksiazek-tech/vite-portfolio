@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm",
+    "title_line_2": "{{name}}",
+    "subtitle": "Full Stack Developer & UI/UX Designer",
+    "desc": "I build modern and fast web applications."
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Mobile",
+    "location": "Localization",
+    "contact_label": "Get in Touch",
+    "tell_me_about": "Tell me about your project...",
+    "project_in_mind": "Have a project in mind? Let's work together to create something amazing",
+    "contact_information": "Contact Information",
+    "contact_information_2": "Feel free to reach out through any of these channels or use the contact form."
+  },
+  "footer": {
+    "copyright": "© {{year}} {{brand}} <bold>{{name}}</bold>. All rights reserved.",
+    "builtWith": "Built with React & Tailwind CSS"
+  }
+}
