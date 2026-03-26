@@ -2,37 +2,37 @@
   {
     "title": "projects.pap.title",
     "description": "projects.pap.description",
-    "image": "/assets/pap_selenium_v1.png",
+    "image": "assets/pap_selenium_v1.png",
     "tags": ["Python", "Selenium", "pytest", "PHP", "Drupal", "Solr"]    
   },
   {
     "title": "projects.ecommerce.title",
     "description": "projects.ecommerce.description",
-    "image": "/assets/prestaShop_to_symfony_v1.png",
+    "image": "assets/prestaShop_to_symfony_v1.png",
     "tags": ["PrestaShop", "Symfony", "Angular", "MySQL", "Redis"]    
   },
   {
     "title": "projects.video_uploader.title",
     "description": "projects.video_uploader.description",
-    "image": "/assets/uploader_video_v1.png",
+    "image": "assets/uploader_video_v1.png",
     "tags": ["Node.JS", "PHP Slim", "Cloudflare", "RabbitMQ", "Redis"]
   },
   {
     "title": "projects.gazeta_prawna.title",
     "description": "projects.gazeta_prawna.description",
-    "image": "/assets/GazetaPrawna_mobile_v1.png",
+    "image": "assets/GazetaPrawna_mobile_v1.png",
     "tags": ["PHP", "Node.JS", "GraphQL", "Paywall"]    
   },
   {
     "title": "projects.dziennik.title",
     "description": "projects.dziennik.description",
-    "image": "/assets/dziennik_mobile_v1.png",
+    "image": "assets/dziennik_mobile_v1.png",
     "tags": ["PHP", "Node.JS", "GraphQL", "meteo.pl"]    
   },
   {
     "title": "projects.forsal.title",
     "description": "projects.forsal.description",
-    "image": "/assets/forsal_laptop_v1.png",
+    "image": "assets/forsal_laptop_v1.png",
     "tags": ["PHP", "Node.JS", "GraphQL", "Notoria"]    
   }
 ]
