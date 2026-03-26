@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react(),    
   ],
-  base: '/vite-portfolio/'  // <- nazwa repo na GitHub, konieczne dla Pages
+  base: './'  // base: "/vite-portfolio/" działa tylko jeśli strona jest serwowana na github.io/repo-name/
 })
