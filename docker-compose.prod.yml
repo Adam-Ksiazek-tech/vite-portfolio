@@ -1,0 +1,7 @@
+services:
+  vite-portfolio:
+    build: .
+    container_name: vite-portfolio
+    restart: unless-stopped
+    ports:
+      - "8080:80"
