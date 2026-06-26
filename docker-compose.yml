@@ -1,12 +1,14 @@
 services:
   vite-portfolio:
     container_name: vite-portfolio
-    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
     ports:
       - "5173:5173"
     volumes:
-      - ./src:/app/src      
-      - ./dist:/app/dist      
+      - .:/app
+      - /app/node_modules
       - ~/.ssh/ak2024_v1:/root/.ssh/id_rsa:ro
       - ~/.ssh/known_hosts:/root/.ssh/known_hosts:ro
     stdin_open: true
