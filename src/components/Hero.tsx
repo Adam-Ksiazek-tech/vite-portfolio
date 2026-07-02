@@ -1,6 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { FadeIn } from "./ui/FadeIn";
 import { contactHero } from "../data/contact";
+
+import { pushToDataLayer } from '@/helpers/gtm';
+
 export function Hero() {
   const { t } = useTranslation();
 
@@ -35,6 +38,11 @@ export function Hero() {
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
+                pushToDataLayer({
+                  event: 'contact_click',
+                  link_text: 'contact.contact_label',
+                  link_url: '#contact',
+                });
               }}
             >            
               {t("contact.contact_label")}              
@@ -45,6 +53,11 @@ export function Hero() {
               onClick={(e) => {
                 e.preventDefault();
                 document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
+                pushToDataLayer({
+                  event: 'projects_click',
+                  link_text: 'contact.contact_label',
+                  link_url: '#projects',
+                });
               }}
             >              
               { t("projects.title") }
